@@ -95,10 +95,10 @@ public class Main
         rim2 = true;
     }
     if (rim1==!true && rim2==true){
-        throw new ScannerException("строка не является математической операцией");
+        throw new ScannerException(" используются одновременно разные системы счисления");
     }
     if (rim1==true && rim2==!true){
-        throw new ScannerException("строка не является математической операцией");
+        throw new ScannerException(" используются одновременно разные системы счисления");
     }
     if (rim1==true && rim2==true) {
         int rez;
